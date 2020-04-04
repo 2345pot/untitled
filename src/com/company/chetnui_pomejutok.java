@@ -7,8 +7,8 @@ public class chetnui_pomejutok {
         int b = scanner.nextInt();
         int i;
         for (i = a;i <= b;i++) {
-           if (a % 2 != 1)
-               System.out.println(a);
+           if (i % 2 == 0)
+               System.out.println(i);
        }
 
     }
